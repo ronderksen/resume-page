@@ -17,6 +17,16 @@
                 font-family: nunito, sans-serif;
                 background-color: var(--color-base);
             }
+            
+            @media print {
+                body {
+                    background-color: white;
+                }
+                
+                * {
+                    color: black;
+                }
+            }
 
             .container {
                 display: flex;
