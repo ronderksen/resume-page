@@ -1,0 +1,23 @@
+body {
+                    background-color: white;
+                }
+                
+                * {
+                    color: black;
+                }
+                
+                sidebar {
+                    order: 2;
+                }
+                
+                sidebar h2 {
+                    display: none;
+                }
+                
+                sidebar ul {
+                    display: flex;
+                    justify-content: space-between;
+                    border-top: 1px solid black;
+                    padding-top: 1rem;
+                    margin-top: 1rem;
+                }
