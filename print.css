@@ -3,8 +3,12 @@ body {
                 }
                 
                 * {
-                    color: black;
+                  color: black;
                 }
+
+.container {
+  flex-direction: column; 
+}
                 
                 sidebar {
                     order: 2;
